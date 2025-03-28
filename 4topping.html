@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pepi's Pizzeria</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body id="topping">
+        
+        <div class="grid">
+
+            <div>
+                <img src="img/Container_Mush.png" onclick="mushroom()" alt="" class="toppings">
+                <img src="img/Container_oliv.png" onclick="olive()" alt="" class="toppings">
+                <img src="img/Container_Onio.png" onclick="onion()" alt="" class="toppings">
+            </div>
+            <div>
+                <img src="img/Container_Pep.png" onclick="pepperoni()" alt="" class="toppings">
+                <img src="img/Container_Saus.png" onclick="sausage()" alt="" class="toppings">
+                <img src="img/Container_Bell.png" onclick="bellpepper()" alt="" class="toppings">
+            </div>
+
+        </div>
+
+            <img src="img/Container_Mush.png" alt="" id="mushroom" class="toppings-overlay">
+            <img src="img/Container_oliv.png" alt="" id="olive" class="toppings-overlay">
+            <img src="img/Container_Onio.png" alt="" id="onion" class="toppings-overlay">
+            <img src="img/pepperoni.png" alt="" id="pepperoni" class="toppings-overlay">
+            <img src="img/sausage.png" alt="" id="sausage" class="toppings-overlay">
+            <img src="img/bellpepper.png" alt="" id="bellpepper" class="toppings-overlay">
+            <div id="pizza-container">
+            <img class="pizza" src="img/Pizza_On_A_Plate_TOP-DOWN_POV.png" alt="">
+        </div>
+            <footer>
+            <a href="5cooking.html" class="next">Next</a>
+            <a href="3writingorder.html" class="back"> Back</a>
+        </footer>
+        <script src="js/toppings.js" async defer></script>
+    </body>
+</html>
